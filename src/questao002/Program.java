@@ -12,7 +12,7 @@ public class Program {
 			System.out.print("Entre o valor a ser analizado: ");
 			int number = sc.nextInt();
 			sc.nextLine();
-			
+
 			if (number >= 350 && number <= 8750) {
 
 				while (number > 0) {
@@ -31,7 +31,7 @@ public class Program {
 				System.out.println(cont);
 
 			}
-			if (number < 350 && number > 8750) {
+			if (number < 350 || number > 8750) {
 				System.out.println("Valor fora da escala para analizar");
 			}
 
